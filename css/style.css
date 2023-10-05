@@ -1,0 +1,55 @@
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .logform{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40vh 20%;
+      width: 100%;
+    }
+    .logform h1{
+      padding: 10px;
+
+    }
+    form{
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      border: 1px solid orange;
+      padding: 10px 5%;
+      /*background-color: blue;*/
+      width:70% ;
+      box-shadow: 1px 1px;
+    }
+
+    form input{
+    width: 100%;
+      height: 30px;
+      font-size: 24px;
+      text-indent: 20px;
+      border-radius: 10px;
+      border: 1px solid orange;
+    }
+    form input:hover{
+      border: black;
+
+    }
+    form button{
+      width: 30%;
+      height: 30px;
+      border-radius: 20px;
+      align-self: center;
+      border: 1px solid black;
+      font-size: 18px;
+    }
+    form button:hover{
+      background-color: orange;
+      color: black;
+      font-weight: bold;
+      font-size: 18px;
+      border: none;
+    }
