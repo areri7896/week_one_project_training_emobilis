@@ -1,0 +1,134 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing:border-box;
+    }
+
+    section {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      background-color: #888888;
+      padding: 30px 5%;
+    }
+
+    .logo {
+      width: 10%;
+    }
+
+    .logo img {
+      height: 50px;
+      padding-left: 5%;
+    }
+
+    .nav {
+      width: 60%;
+    }
+
+    .nav ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav ul li {
+      list-style: none;
+      font-weight: bolder;
+      font-size: 24px;
+      padding-right: 10px;
+      color: white;
+      text-transform: capitalize;
+    }
+      .nav ul li:hover{
+       border: none;
+       /*background: ;*/
+       border-radius: 10px;
+       padding: 2%;
+       color: black;
+     }
+       .nav ul li:nth-child(odd){
+         /*background: black;*/
+         border: 1px solid white;
+         border-radius: 10px;
+         padding: 5px;
+         color: white;}
+    .nav ul li:nth-child(even){
+         /*background: black;*/
+         border: 1px solid white;
+         border-radius: 10px;
+         padding: 5px;
+         color: orange;}
+
+    .images {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 10px 5%;
+    }
+
+    .images img {
+      width: 100%;
+    }
+
+    body {
+      background-color: #dcdada;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      border-radius: 20px;
+    }
+
+    h1:hover {
+      color: blue;
+      transform: scale(1.2);
+      background-color: chartreuse;
+    }
+
+    h2 {
+      color: white;
+      padding: 30px 5%;
+      text-transform: capitalize;
+      background-color: #888888;
+      font-size: 32px;
+    }
+
+    .par {
+      background-image: url("https://images.pexels.com/photos/1337377/pexels-photo-1337377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      background-repeat: repeat;
+      color: white;
+    }
+
+    p {
+      padding: 30px 5%;
+    }
+
+    .btn {
+      display: flex;
+      justify-content: space-between;
+      align-self: center;
+      flex-direction: row;
+      padding: 10px;
+    }
+
+    button {
+      background-color: #fff666;
+      width: 20%;
+      border: none;
+      padding: 10px;
+      font-size: 20px;
+      font-family: Serif;
+      border-radius: 20px;
+
+    }
+
+    button:hover {
+      color: black;
+      border: 1px solid black;
+      background-color: #fff;
+      border-radius: 20px;
+      font-weight: bold;
+    }
