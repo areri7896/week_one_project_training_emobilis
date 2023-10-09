@@ -1,97 +1,12 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-section{
-  width: 100%;
-  background-color: #888888;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 5%;
-}
-.logo{
- display: flex;
-  /*justify-content: space-between;*/
-  align-items: center;
-}
-.logo img{
-  width: 10%;
-}
-.logo h1{
-  color: white;
-  font-size: 30px;
-  padding-left: 20px;
-}
-.logo h1 span{
-  color: orange;
-}
-section .navi{
-  color: #fff;
-  width: 50%;
-}
-.navi ul{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-}
-.navi ul li{
-   text-transform: capitalize;
-  background-color: white;
 
-}
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,600&display=swap');
+
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-section{
-  width: 100%;
-  background-color: #888888;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 5%;
-}
-.logo{
- display: flex;
-  /*justify-content: space-between;*/
-  align-items: center;
-}
-.logo img{
-  width: 10%;
-}
-.logo h1{
-  color: white;
-  font-size: 30px;
-  padding-left: 20px;
-}
-.logo h1 span{
-  color: orange;
-}
-section .navi{
-  color: #fff;
-  width: 50%;
-}
-.navi ul{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-}
-.navi ul li{
-   text-transform: capitalize;
-  background-color: white;
-
-}
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 section{
   width: 100%;
@@ -108,6 +23,7 @@ section{
 }
 .logo img{
   width: 5%;
+  cursor: pointer;
 }
 .logo h1{
   color: white;
@@ -132,8 +48,10 @@ section .navi{
   background-color: white;
   padding: 10px 5%;
   border-radius: 30px;
+  margin: 5px;
   color: black;
   font-size: 30px;
+  cursor: pointer;
 }
 .navi ul li:hover{
   background-color: orange;
@@ -151,6 +69,11 @@ section .navi{
 }
 .body .image img{
   overflow: hidden;
+  align-self: center;
+}
+.body .image img:hover{
+  transform: scale(0.9);
+  cursor: pointer;
 }
 .text{
   text-indent: 20px;
@@ -158,6 +81,7 @@ section .navi{
 .text h2{
   color: orange;
   font-size: 45px;
+  font-weight: bold;
   text-transform: uppercase;
 }
 .text p{
@@ -173,19 +97,60 @@ section .navi{
   border-radius: 20px;
   border:1px solid black;
   font-size: 24px;
+  cursor: pointer;
 }
 .body .text .btn button:hover{
   background-color: orange;
   color: white;
   border: none;
 }
+
 .form-cnt{
+  display: flex;
   flex-direction: column;
+  background-image: url("/img/image 4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 30px 5%;
+}
+.form-cnt h1{
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  background-color: #888888;
+  border-radius: 20px;
+  align-self: center;
+  padding: 20px 5%;
 }
 .form-cnt form{
   display: flex;
+  width: 80%;
   flex-direction: column;
   }
+
 input{
   width: 100%;
+  padding: 20px 5%;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 5%;
+  font-size: 24px;
+  text-transform: uppercase;
+  color:orange;
+}
+.bttn{
+  width: 30%;
+  align-self: center;
+  background-color: #888888;
+  color: white;
+  font-size: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.bttn:hover{
+  background-color: orange;
+  font-weight: bold;
+  transform: scale(1.2);
 }
