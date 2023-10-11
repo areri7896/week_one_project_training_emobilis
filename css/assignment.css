@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,600&family=Young+Serif&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -26,6 +27,8 @@
 .logo h1{
   color:#FFCD4B;
   font-size: 50px;
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: 'Young Serif', serif;
 }
 .logo img{
   width: 30%;
@@ -53,6 +56,8 @@
   color: #ffffff;
   text-decoration: underline;
   transition: .3s;
+  border: 1px solid white;
+  border-radius: 10px;
 }
 /*sections styling*/
 
@@ -75,15 +80,18 @@ margin: auto;
 }
 .text h1{
   color: #04364A;
-  font-size:40px;
+  font-size:30px;
   margin-top: 0;
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: 'Young Serif', serif;
 }
 .text p{
   font-size: 20px;
+  color: white;
 }
 .text button{
   background-color: #FFCD4B;
-  height: 30px;
+  height: 40px;
   width: 30%;
   border-radius: 10px;
   margin: 30px 0;
@@ -119,6 +127,8 @@ margin: auto;
   color: #04364A;
   font-size: 30px;
   padding: 30px 0;
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: 'Young Serif', serif;
 
 }
 /*cards part styling*/
@@ -133,4 +143,113 @@ margin: auto;
 }
 .cards-section .cards .card img{
   width: 100%;
+  border-radius: 10px;
+}
+.cards-section .cards .card h2{
+  color: #04364A;
+  padding-top: 20px;
+}
+.cards-section .cards .card p{
+  padding: 20px 0;
+}
+.cards-section .cards .card button{
+   background-color: #FFCD4B;
+  height: 40px;
+  width: 30%;
+  border-radius: 10px;
+  margin: 30px 0;
+  outline: none;
+  border: none;
+  color: #04364A;
+  font-size: 18px;
+}
+.cards-section .cards .card button:hover{
+  background-color: #04364A;
+  color: #FFCD4B;
+  cursor: pointer;
+}
+/*footer section styling*/
+
+footer{
+  display: flex;
+  flex-direction: column;
+  /*background-color: red;*/
+    background-color: #04364A;
+  padding: 30px 10%;
+  width: 100%;
+}
+.footer-child{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright{
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  margin:20px 0;
+}
+.latest-posts{
+  display: flex;
+  /*background-color: yellow;*/
+  flex-direction: column;
+  color: white;
+}
+.latest-posts h1{
+  font-size: 30px;
+  padding: 20px 0;
+}
+.post{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.date{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  background-color: white;
+  color: #04364A;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.date span{
+  font-size: 24px;
+}
+.ttx{
+  padding: 0 20px;
+}
+.ttx h3{
+  font-size: 24px;
+}
+.about{
+  width: 40%;
+  color: white;
+}
+.about h2{
+  font-size: 30px;
+}
+.about p{
+  font-size: 18px;
+    padding: 20px 0;
+}
+.stay-connected {
+  color: white;
+  width: 20%;
+}
+.stay-connected h2{
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.links{
+  display: flex;
+  column-gap: 10px;
+  width: 100%;
+  justify-content: flex-start;
+  padding: 10px 0;
+  font-size: 24px;
 }
